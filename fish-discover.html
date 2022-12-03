@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Royal Fish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alice&family=Berkshire+Swash&family=EB+Garamond&family=Fredericka+the+Great&family=Great+Vibes&family=IBM+Plex+Serif&family=Lemonada&family=Macondo&family=Old+Standard+TT:ital@0;1&family=Pinyon+Script&family=Satisfy&family=Tangerine&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fish-discover.css" />
+</head>
+
+<body>
+    <h1>Choose a number and discover your Royal Fish</h1>
+    <div class="buttoncontainer">
+        <button id="button01" class="active">01</button>
+        <button id="button02">02</button>
+        <button id="button03">03</button>
+        <button id="button04">04</button>
+        <button id="button05">05</button>
+    </div>
+    <div id="image_container" class="imagecontainer hidden">
+        <p id="congratulations">
+            Congratulations, you are a Royal <span id="fish_name">Fish</span>!
+        </p>
+        <img id="fish_image" class="image" alt="fish" />
+    </div>
+    <script src="fish-discover.js"></script>
+</body>
+
+</html>
