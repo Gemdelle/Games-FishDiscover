@@ -1,6 +1,39 @@
 body {
     background-image: url(Images/Background.png);
     background-size: cover;
+    position: relative;
+}
+
+.card-btn {
+  height: 6vw;
+  width: 9vw;
+  background-image: url(Images/card-button.png);
+  background-size: cover;
+  position: absolute;
+  right: 3vw;
+  top: 0;
+}
+
+.card-btn a{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.memotest-btn {
+  height: 6vw;
+  width: 9vw;
+  background-image: url(Images/memotest-button.png);
+  background-size: cover;
+  position: absolute;
+  left: 3vw;
+  top: 0;
+}
+
+.memotest-btn a{
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
 
